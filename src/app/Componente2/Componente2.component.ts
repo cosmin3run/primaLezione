@@ -12,7 +12,7 @@ title: string = ''
 constructor()  {}
 
   ngOnInit(): void {
-    this.title = 'Secondo Component Title'
+    this.title = "Questo è l'h3"
    }
 
 }

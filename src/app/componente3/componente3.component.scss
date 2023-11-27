@@ -1,4 +1,49 @@
-p {
-    color: grey;
+.titolo {
+    font-size: 30px;
+    color: purple;
+    background-color: rgba(172, 255, 47, 0.589);
+    padding-top: 50px;
+}
+.card-text {
+  color: purple;
+  overflow: scroll;
+  height: 100px;
+}
+h5 {
+  font-weight: 700;
+  font-size: 2em;
+}
 
+#card-div {
+  position: relative;
+  animation-name: card;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes card {
+  0% {
+    left: 0px;
+    top: 0px;
+    rotate: 0deg;
+  }
+  25% {
+    left: 200px;
+    top: 0px;
+    rotate: 90deg;
+  }
+  50% {
+    left: 200px;
+    top: 200px;
+    rotate: 180deg;
+  }
+  75% {
+    left: 0px;
+    top: 200px;
+    rotate: 270deg;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+    rotate: 360deg;
+  }
 }
