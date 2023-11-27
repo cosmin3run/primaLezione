@@ -10,6 +10,6 @@ export class Componente1Component implements OnInit {
   constructor() {}
 
   ngOnInit(): void {
-    this.numero = 5;
+    this.numero = 10;
   }
 }

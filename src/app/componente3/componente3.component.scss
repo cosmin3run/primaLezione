@@ -2,7 +2,8 @@
     font-size: 30px;
     color: purple;
     background-color: rgba(172, 255, 47, 0.589);
-    padding-top: 50px;
+    margin-top: 100px;
+    border-top: solid 3px rgba(57, 255, 47, 0.526);
 }
 .card-text {
   color: purple;
@@ -12,6 +13,11 @@
 h5 {
   font-weight: 700;
   font-size: 2em;
+}
+a:hover {
+    background-color: green;
+    cursor: none;
+    color: green;
 }
 
 #card-div {
